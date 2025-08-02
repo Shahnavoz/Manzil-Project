@@ -215,7 +215,7 @@
   // }
 
 //   Future<void> searchPlaceAndBuildings(String query) async {
-//     const apiKey = '***REMOVED***';
+//     const apiKey = 'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM';
 
 //     // 1. Text Search — ищем место по названию
 //     final searchUrl = Uri.parse(
@@ -300,7 +300,7 @@
 
  // Future<void> fetchBuildings() async {
   //   const apiKey =
-  //       '***REMOVED***'; // ⬅️ Вставь сюда свой API-ключ
+  //       'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM'; // ⬅️ Вставь сюда свой API-ключ
   //   final url =
   //       'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${_cityCenter.latitude},${_cityCenter.longitude}&radius=2000&keyword=building&key=$apiKey';
   //   // 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=buildings+in+$_cityCenter&key=$apiKey';
@@ -374,7 +374,7 @@
 //   }
 
 //   Future<void> fetchBuildings() async {
-//     const apiKey = '***REMOVED***'; // Твой ключ
+//     const apiKey = 'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM'; // Твой ключ
 //     final url =
 //         'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${_cityCenter.latitude},${_cityCenter.longitude}&radius=2000&keyword=building&key=$apiKey';
 

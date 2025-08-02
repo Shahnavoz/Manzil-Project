@@ -417,7 +417,7 @@
 //   }
 
 //   Future<void> searchPlaceAndBuildings(String query) async {
-//     const apiKey = '***REMOVED***';
+//     const apiKey = 'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM';
 
 //     final searchUrl = Uri.parse(
 //       'https://maps.googleapis.com/maps/api/place/textsearch/json?query=$query&key=$apiKey',

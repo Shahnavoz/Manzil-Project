@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
     }
 
     // Затем добавляем здания из Google Places
-    final apiKey = '***REMOVED***';
+    final apiKey = 'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM';
     final url =
         'https://maps.googleapis.com/maps/api/place/textsearch/json?query=buildings+in+Dushanbe&key=$apiKey';
 
@@ -291,7 +291,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> searchPlaceAndBuildings(String query) async {
-    const apiKey = '***REMOVED***';
+    const apiKey = 'AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM';
 
     final searchUrl = Uri.parse(
       'https://maps.googleapis.com/maps/api/place/textsearch/json?query=$query&key=$apiKey',

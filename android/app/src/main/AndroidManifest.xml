@@ -11,7 +11,7 @@
         <!-- ✅ ПРАВИЛЬНО: API-ключ Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="***REMOVED***" />
+            android:value="AIzaSyDs2xYPeAxJFOa-b65NtmVPEkG3E1zMCgM" />
 
         <!-- 🎯 ПРАВИЛЬНО: тема Flutter без API-ключа -->
         <meta-data
